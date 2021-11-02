@@ -6,7 +6,7 @@ class Solution {
         for(int i=0;i<nums.length;i++){
          set.add(nums[i]);
         }
-        
+
         PriorityQueue<Integer> pq=new PriorityQueue<>();
         for(int i:set){
             pq.add(i);
